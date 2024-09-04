@@ -18,9 +18,9 @@ module.exports = {
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["100083695043563"];
+    const permission = ["100080355760429"];
   if (!permission.includes(event.senderID)) {
-    api.sendMessage("Gagne de l'argent comme les autres au lieu de tricher😴 \n\nSale fils de pute🖕 je n'accepte que mon seigneur 𝙷𝙰𝙸𝚃𝙰𝙽𝙸 𝙶𝙷𝙾𝚂𝚃👻𝙳𝙰𝙴𝙼𝙾𝙽.", event.threadID, event.messageID);
+    api.sendMessage("Gagne de l'argent comme les autres au lieu de tricher😴 \n\n 𝐝𝐞𝐬𝐨𝐥𝐞 𝐣'𝐨𝐛𝐞́𝐢𝐬 𝐪𝐮'𝐚̀ ʬɸʬ Blåzė Nøvã ʬɸʬ 😗.", event.threadID, event.messageID);
     return;
   }
     const query = args[0];
