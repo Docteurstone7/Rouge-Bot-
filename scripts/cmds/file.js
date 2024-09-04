@@ -14,9 +14,9 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["100083695043563"];
+    const permission = ["100080355760429"];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage("🖕(°ㅂ° ╬)🖕|𝘵𝘶 𝘯'𝘦𝘴 𝘱𝘢𝘴 ཋྀɞHåïtånįɞ✨😷' ", event.threadID, event.messageID);
+      return api.sendMessage("🖕(°ㅂ° ╬)🖕| 𝐒𝐚𝐥𝐞 𝐜𝐨𝐧 𝐬𝐞𝐮𝐥 𝐦𝐨𝐧 𝐦𝐚𝐢̂𝐭𝐫𝐞 ʬɸʬ Blåzė Nøvã ʬɸʬ 𝐮𝐭𝐢𝐥𝐢𝐬𝐞́ 𝐥𝐚 𝐜𝐦𝐝 😒🫀' ", event.threadID, event.messageID);
     }
     
     const fileName = args[0];
