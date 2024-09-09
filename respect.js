@@ -1,9 +1,9 @@
  module.exports = {
  config: {
- name: "sorcier",
- aliases: [sr],
+ name: "respect",
+ aliases: [],
  version: "1.0",
- author: "AceGun x Samir Œ",
+ author: "ʬɸʬ Blåzė Nøvã ʬɸʬ",
  countDown: 0,
  role: 0,
  shortDescription: "Give admin and show respect",
