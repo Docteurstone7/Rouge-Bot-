@@ -18,14 +18,7 @@ const fonts = {
     }
 };
 
-const Prefixes = [
-  'zenos',
-  'tanjiro',
-  'blaze',
-  'san',
-  'nova', 
-   'demon',
-    'gemini',];
+const Prefixes = ['ask',];
 
 module.exports = {
   config: {
